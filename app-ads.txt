@@ -1,5 +1,7 @@
 ironsrc.com, 245771, DIRECT, 79929e88b2ba73bc
 
+google.com, pub-1914502091900862, DIRECT, f08c47fec0942fa0
+
 ninthdecimal.com, 6364d3f0f495b6ab9dcf8d3b5c6e0b01, RESELLER, 3aff2148687b274b
 admanmedia.com, 9, RESELLER
 appnexus.com, 7445, RESELLER
