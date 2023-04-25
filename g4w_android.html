@@ -6,15 +6,12 @@
   <body>
     <h1>Hello, World!</h1>
     <p>This is a test page with a deeplink.</p>
-    <button onclick="openApp()">Open App</button>
     <script>
-      function openApp() {
-        var url = "g4wdl://open";
-        window.location = url;
-        setTimeout(function() {
-          window.location = "https://play.google.com/store/apps/details?id=com.HeatMachine.WordAndWord";
-        }, 1000);
-      }
-    </script>
+  window.onload = function() {
+    window.location = "g4wdl://open";
+    setTimeout(function() {
+      window.location = "https://play.google.com/store/apps/details?id=com.HeatMachine.WordAndWord";
+    }, 1000);
+  };
   </body>
 </html>
