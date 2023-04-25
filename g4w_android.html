@@ -1,33 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Open WordAndWord app</title>
-  <script>
-    window.onload = function() {
-      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-      if (/android/i.test(userAgent)) {
-        window.location = "intent://open#Intent;scheme=g4wdl;package=com.HeatMachine.WordAndWord;end";
-        setTimeout(function() {
-          window.location = "https://play.google.com/store/apps/details?id=com.HeatMachine.WordAndWord";
-        }, 1000);
-      } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        window.location = "g4wdl://open";
-        setTimeout(function() {
-          window.location = "https://itunes.apple.com/us/app/wordandword/id1234567890?mt=8";
-        }, 1000);
-      } else {
-        // Показать сообщение, что приложение доступно только на мобильных устройствах
-        var appNotAvailableDiv = document.getElementById("app-not-available");
-        appNotAvailableDiv.style.display = "block";
-      }
-    };
-  </script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Redirect to Unity app</title>
 </head>
 <body>
-  <div id="app-not-available" style="display: none;">
-    <p>This page is only accessible on a mobile device.</p>
-    <p>Please visit <a href="https://play.google.com/store/apps/details?id=com.HeatMachine.WordAndWord">Google Play</a> or <a href="https://itunes.apple.com/us/app/wordandword/id1234567890?mt=8">App Store</a> to download our app.</p>
-  </div>
+	<h1>Redirecting to Unity app...</h1>
+	<script>
+		// Replace the deeplink scheme and host with your own values
+		var deeplink = "g4wdl://open";
+		window.location.href = deeplink;
+	</script>
 </body>
 </html>
