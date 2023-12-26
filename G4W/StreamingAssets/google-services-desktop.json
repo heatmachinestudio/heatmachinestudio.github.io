@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "1052693163245",
+    "firebase_url": "https://wordandword-f9f15-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "wordandword-f9f15",
+    "storage_bucket": "wordandword-f9f15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052693163245:ios:400db0a8d3b5a8cb38f0e4",
+        "android_client_info": {
+          "package_name": "com.heatmachine.goldforwords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052693163245-fo4d9uki9nuueg5f5huon836u5glqml9.apps.googleusercontent.com"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA__gSpomSelcXNVQBEfgQieWBFhIpXKzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
